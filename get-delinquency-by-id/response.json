@@ -1,0 +1,47 @@
+{
+  "id": 1507860,
+  "name": "9000508945",
+  "type": "collateralLine", // или "contract"
+  "issueDate": "2023-04-08",
+  "clientId": 2734025,
+  "subdivisionId": 101852,
+  "subdivisonName": "ООО  ИнПлат Технологии",
+
+  "repaymentDate": "2023-10-08",
+  "delinquencyDays": 30,
+
+  "interest": 0,
+  "fee": 0,
+  "penalty": 146.8,
+  "losses": 0,
+  "prForepayment": 0,
+  "intForepayment": 0,
+  "total": 5040.24,
+  "principal": 4893.44,
+
+  "lastPaymentDate": "2023-10-05", // дата последнего платежа
+
+  "date": "2023-11-07", // дата расчёта задолженности
+  "loanAppExternalName": "", // внешний номер заявки на кредит/линию
+  
+  "manualStatus": [
+    {
+      "id": 247811,
+      "info": null,
+      "statusId": 19,
+      "date": "2023-10-05"
+    },
+    {
+      "id": 249439,
+      "info": "Сумма долга на 01.11.2022 - 8387,35 руб.",
+      "statusId": 6,
+      "date": "2022-11-01"
+    },
+    {
+      "id": 597307,
+      "info": "Судебный приказ № 2-1644/2022 от 28.12.2022 на сумму 8587,35 р., включая госпошлину 200 р.",
+      "statusId": 21,
+      "date": "2023-10-07"
+    }
+  ]  
+}

@@ -1,0 +1,123 @@
+{
+  "id": 1507860,
+  "lastName": "Иванов",
+  "firstName": "Пётр",
+  "patronymic": "Сидорович",
+
+  "sexId": "m",
+
+  "passport": {
+    "seria": "4000",
+    "no": "600000",
+    "issueDate": "2016-06-08",
+    "subdivisionCode": "500-085",
+    "manager": "ТП №2 МЕЖРАЙОННОГО УФМС РОССИИ ПО МОСКОВСКОЙ ОБЛАСТИ В ГОРОДСКОМ ПОСЕЛЕНИИ МЫТИЩИ"
+  },
+
+  "birthPlace": "Город Фрязино",
+  "birthDate": "1996-05-05",
+  "mobilePhone": "79222222222",
+  "alternatePhone": "79262222222",
+  "inBlackList": false,
+  "inSMSList": true,
+
+  "addressData": {
+    "regionName": "Московская обл",
+    "buildingNo": "",
+    "apartmentNo": "",
+    "postalCode": "141092",
+    "fullAddressText": "141092, Московская обл, г Королёв, мкр Юбилейный, ул М.К.Тихонравова, д 35 к 7, кв 6-5",
+    "fiasId": "e7987fc3-cf8d-4cf7-b48a-1d5633feebd7",
+    "countryId": 101042,
+    "localityName": "г Королёв",
+    "streetName": "ул М.К.Тихонравова",
+    "houseNo": "35",
+    "blockNo": "7",
+    "regDate": null,
+    "housingType": "",
+    "timeZone": "UTC+3"
+  },
+  "registrationAddressData": {
+    "regionName": "Московская обл",
+    "buildingNo": "",
+    "apartmentNo": "6-5",
+    "postalCode": "141092",
+    "fullAddressText": "141092, Московская обл, г Королёв, мкр Юбилейный, ул М.К.Тихонравова, д 35 к 7, кв 6-5",
+    "fiasId": "e7987fc3-cf8d-4cf7-b48a-1d5633feebd7",
+    "countryId": 101042,
+    "localityName": "г Королёв",
+    "streetName": "ул М.К.Тихонравова",
+    "houseNo": "35",
+    "blockNo": "7",
+    "regDate": null,
+    "housingType": "",
+    "timeZone": "UTC+3"
+  },
+
+  "clientRiskStatus": [
+    {      
+      "insertDate": "2023-04-08",
+      "comments": "Новый клиент",
+      "valueId": 102185,
+      "id": 244792
+    }
+  ],
+  
+  "contacts": [
+    {
+      "successful": true,
+      "conversation": null,
+      "conversationResult": {
+        "id": 8,
+        "name": "Недозвон",
+        "active": true,
+        "statusDuration": null
+      },
+      "contactType": {
+        "id": 3,
+        "name": "Звонок на мобильный телефон",
+        "active": true
+      },
+      "date": "2023-04-08",
+      "id": 3066530
+    },
+    {
+      "successful": true,
+      "conversation": null,
+      "conversationResult": {
+        "id": 8,
+        "name": "Недозвон",
+        "active": true,
+        "statusDuration": null
+      },
+      "contactType": {
+        "id": 2,
+        "name": "Звонок на альтернативный телефон",
+        "active": true
+      },
+      "date": "2023-04-08",
+      "id": 3133694
+    },
+    {
+      "successful": true,
+      "conversation": {
+        "id": 15,
+        "name": "с заемщиком",
+        "active": true
+      },
+      "conversationResult": {
+        "id": 1,
+        "name": "Обещание (оплатит в срок)",
+        "active": true,
+        "statusDuration": 5
+      },
+      "contactType": {
+        "id": 3,
+        "name": "Звонок на мобильный телефон",
+        "active": true
+      },
+      "date": "2023-04-08",
+      "id": 2741417
+    },
+  ]
+}
